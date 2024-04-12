@@ -22,12 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "wjdwltn"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wjdwltn&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -49,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Queue_1966.executor": "Run",
     "Application.Stack_10828.executor": "Run",
     "Application.Stack_9012.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -58,7 +59,14 @@
     "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Queue_1966">
+    <configuration name="Queue_1966" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue_1966" />
+      <module name="Algorithm_Ml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Stack_9012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack_9012" />
       <module name="Algorithm_Ml" />
@@ -68,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queue_1966" />
         <item itemvalue="Application.Stack_9012" />
       </list>
     </recent_temporary>
@@ -136,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712744893412</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Queue_Truck">
+      <option name="closed" value="true" />
+      <created>1712839388273</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712839388273</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
