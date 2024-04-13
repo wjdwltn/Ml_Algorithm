@@ -11,7 +11,6 @@ public class Stack_9012 {
         for(int i=0; i<N; i++){
             String st = br.readLine();
 
-
             for(int j=0; j<st.length(); j++){
                 if(st.charAt(j)=='('){
                     stack.push(st.charAt(j));
@@ -26,12 +25,11 @@ public class Stack_9012 {
                 }
             }
             if(!stack.isEmpty()) {
-                System.out.println("No");
+                System.out.println("NO");
             }
             else {
-                System.out.println("yes");
+                System.out.println("YES");
             }
-            stack.clear();
         }
     }
 }
