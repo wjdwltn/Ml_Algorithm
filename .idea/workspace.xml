@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="98ee22bd-3257-4630-9847-5cf37250143e" name="Changes" comment="Queue_Truck">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack_9012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack_9012.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Binary_2805.executor": "Run",
     "Application.Queue_1966.executor": "Run",
     "Application.Queue_9093.executor": "Run",
     "Application.Stack_10828.executor": "Run",
@@ -61,7 +61,14 @@
     "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Stack_9012">
+  <component name="RunManager" selected="Application.Binary_2805">
+    <configuration name="Binary_2805" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Binary_2805" />
+      <module name="Algorithm_Ml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Queue_1966" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queue_1966" />
       <module name="Algorithm_Ml" />
@@ -85,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Binary_2805" />
         <item itemvalue="Application.Stack_9012" />
         <item itemvalue="Application.Queue_9093" />
         <item itemvalue="Application.Queue_1966" />
