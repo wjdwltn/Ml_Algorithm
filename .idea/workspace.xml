@@ -49,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Binary_10816.executor": "Run",
     "Application.Binary_1654.executor": "Run",
     "Application.Binary_2805.executor": "Run",
     "Application.Queue_1966.executor": "Run",
@@ -62,7 +63,14 @@
     "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Binary_1654">
+  <component name="RunManager" selected="Application.Binary_10816">
+    <configuration name="Binary_10816" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Binary_10816" />
+      <module name="Algorithm_Ml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Binary_1654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Binary_1654" />
       <module name="Algorithm_Ml" />
@@ -72,13 +80,6 @@
     </configuration>
     <configuration name="Binary_2805" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Binary_2805" />
-      <module name="Algorithm_Ml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Queue_1966" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue_1966" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Binary_10816" />
         <item itemvalue="Application.Binary_1654" />
         <item itemvalue="Application.Binary_2805" />
         <item itemvalue="Application.Stack_9012" />
         <item itemvalue="Application.Queue_9093" />
-        <item itemvalue="Application.Queue_1966" />
       </list>
     </recent_temporary>
   </component>
