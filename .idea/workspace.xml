@@ -50,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BFS_1260.executor": "Run",
+    "Application.BFS_2667.executor": "Run",
     "Application.Binary_10816.executor": "Run",
     "Application.Binary_1654.executor": "Run",
     "Application.Binary_18870.executor": "Run",
@@ -66,7 +67,7 @@
     "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BFS_1260">
+  <component name="RunManager" selected="Application.BFS_2667">
     <configuration name="BFS_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BFS_1260" />
       <module name="Algorithm_Ml" />
@@ -74,15 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Binary_10816" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Binary_10816" />
+    <configuration name="BFS_2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BFS_2667" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Binary_1654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Binary_1654" />
+    <configuration name="Binary_10816" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Binary_10816" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BFS_2667" />
         <item itemvalue="Application.BFS_1260" />
         <item itemvalue="Application.Binary_1920" />
         <item itemvalue="Application.Binary_18870" />
         <item itemvalue="Application.Binary_10816" />
-        <item itemvalue="Application.Binary_1654" />
       </list>
     </recent_temporary>
   </component>
