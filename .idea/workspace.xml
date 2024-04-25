@@ -57,6 +57,7 @@
     "Application.Binary_1920.executor": "Run",
     "Application.Binary_2805.executor": "Run",
     "Application.DFS_1012.executor": "Run",
+    "Application.DFS_11724.executor": "Run",
     "Application.Queue_1966.executor": "Run",
     "Application.Queue_9093.executor": "Run",
     "Application.Stack_10828.executor": "Run",
@@ -68,7 +69,7 @@
     "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DFS_1012">
+  <component name="RunManager" selected="Application.DFS_11724">
     <configuration name="BFS_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BFS_1260" />
       <module name="Algorithm_Ml" />
@@ -78,13 +79,6 @@
     </configuration>
     <configuration name="BFS_2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BFS_2667" />
-      <module name="Algorithm_Ml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Binary_18870" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Binary_18870" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,13 +98,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DFS_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_11724" />
+      <module name="Algorithm_Ml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DFS_11724" />
         <item itemvalue="Application.DFS_1012" />
         <item itemvalue="Application.BFS_2667" />
         <item itemvalue="Application.BFS_1260" />
         <item itemvalue="Application.Binary_1920" />
-        <item itemvalue="Application.Binary_18870" />
       </list>
     </recent_temporary>
   </component>
