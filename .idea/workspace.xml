@@ -47,37 +47,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BFS_1260.executor": "Run",
-    "Application.BFS_2667.executor": "Run",
-    "Application.Binary_10816.executor": "Run",
-    "Application.Binary_1654.executor": "Run",
-    "Application.Binary_18870.executor": "Run",
-    "Application.Binary_1920.executor": "Run",
-    "Application.Binary_2805.executor": "Run",
-    "Application.DFS_1012.executor": "Run",
-    "Application.DFS_11724.executor": "Run",
-    "Application.Greedy_11399.executor": "Run",
-    "Application.Queue_1966.executor": "Run",
-    "Application.Queue_9093.executor": "Run",
-    "Application.Stack_10828.executor": "Run",
-    "Application.Stack_9012.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BFS_1260.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BFS_2667.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_10816.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_1654.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_18870.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_1920.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_2805.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DFS_1012.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DFS_11724.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Greedy_11399.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue_1966.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue_9093.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stack_10828.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stack_9012.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Greedy_11399">
-    <configuration name="BFS_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BFS_1260" />
-      <module name="Algorithm_Ml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.Greedy_1931">
     <configuration name="BFS_2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BFS_2667" />
       <module name="Algorithm_Ml" />
@@ -106,13 +99,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Greedy_1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy_1931" />
+      <module name="Algorithm_Ml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Greedy_1931" />
         <item itemvalue="Application.Greedy_11399" />
         <item itemvalue="Application.DFS_11724" />
         <item itemvalue="Application.DFS_1012" />
         <item itemvalue="Application.BFS_2667" />
-        <item itemvalue="Application.BFS_1260" />
       </list>
     </recent_temporary>
   </component>
