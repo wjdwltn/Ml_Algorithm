@@ -58,6 +58,7 @@
     "Application.Binary_2805.executor": "Run",
     "Application.DFS_1012.executor": "Run",
     "Application.DFS_11724.executor": "Run",
+    "Application.Greedy_11047.executor": "Run",
     "Application.Greedy_11399.executor": "Run",
     "Application.Greedy_12845.executor": "Run",
     "Application.Greedy_1931.executor": "Run",
@@ -72,16 +73,16 @@
     "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Greedy_12845">
-    <configuration name="DFS_1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_1012" />
+  <component name="RunManager" selected="Application.Greedy_11047">
+    <configuration name="DFS_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_11724" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DFS_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_11724" />
+    <configuration name="Greedy_11047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy_11047" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Greedy_11047" />
         <item itemvalue="Application.Greedy_12845" />
         <item itemvalue="Application.Greedy_1931" />
         <item itemvalue="Application.Greedy_11399" />
         <item itemvalue="Application.DFS_11724" />
-        <item itemvalue="Application.DFS_1012" />
       </list>
     </recent_temporary>
   </component>
