@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="98ee22bd-3257-4630-9847-5cf37250143e" name="Changes" comment="Queue_Truck">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy_12845.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy_12845.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy_2875.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy_2875.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,35 +49,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BFS_1260.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BFS_2667.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Binary_10816.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Binary_1654.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Binary_18870.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Binary_1920.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Binary_2805.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DFS_1012.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DFS_11724.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Greedy_11047.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Greedy_11399.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Greedy_12845.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Greedy_1931.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Queue_1966.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Queue_9093.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stack_10828.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stack_9012.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BFS_1260.executor": "Run",
+    "Application.BFS_2667.executor": "Run",
+    "Application.Binary_10816.executor": "Run",
+    "Application.Binary_1654.executor": "Run",
+    "Application.Binary_18870.executor": "Run",
+    "Application.Binary_1920.executor": "Run",
+    "Application.Binary_2805.executor": "Run",
+    "Application.DFS_1012.executor": "Run",
+    "Application.DFS_11724.executor": "Run",
+    "Application.Goorm_해외주식.executor": "Run",
+    "Application.Greedy_11047.executor": "Run",
+    "Application.Greedy_11399.executor": "Run",
+    "Application.Greedy_12845.executor": "Run",
+    "Application.Greedy_1931.executor": "Run",
+    "Application.Greedy_2875.executor": "Run",
+    "Application.Queue_1966.executor": "Run",
+    "Application.Queue_9093.executor": "Run",
+    "Application.Stack_10828.executor": "Run",
+    "Application.Stack_9012.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.Greedy_11047">
-    <configuration name="DFS_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_11724" />
+}]]></component>
+  <component name="RunManager" selected="Application.Goorm_해외주식">
+    <configuration name="Goorm_해외주식" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Goorm_해외주식" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,13 +87,6 @@
     </configuration>
     <configuration name="Greedy_11047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greedy_11047" />
-      <module name="Algorithm_Ml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Greedy_11399" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy_11399" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,13 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Greedy_2875" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy_2875" />
+      <module name="Algorithm_Ml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Greedy_11047" />
+        <item itemvalue="Application.Goorm_해외주식" />
+        <item itemvalue="Application.Greedy_2875" />
         <item itemvalue="Application.Greedy_12845" />
+        <item itemvalue="Application.Greedy_11047" />
         <item itemvalue="Application.Greedy_1931" />
-        <item itemvalue="Application.Greedy_11399" />
-        <item itemvalue="Application.DFS_11724" />
       </list>
     </recent_temporary>
   </component>
@@ -199,5 +203,16 @@
     <MESSAGE value="Stack_10828" />
     <MESSAGE value="Queue_Truck" />
     <option name="LAST_COMMIT_MESSAGE" value="Queue_Truck" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Greedy_2875.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
