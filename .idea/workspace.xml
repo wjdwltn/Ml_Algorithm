@@ -54,6 +54,7 @@
     "Application.BFS_1260.executor": "Run",
     "Application.BFS_2667.executor": "Run",
     "Application.Baek_1764.executor": "Run",
+    "Application.Baek_20920.executor": "Run",
     "Application.Binary_10816.executor": "Run",
     "Application.Binary_1654.executor": "Run",
     "Application.Binary_18870.executor": "Run",
@@ -79,7 +80,7 @@
     "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Baek_1764">
+  <component name="RunManager" selected="Application.Baek_20920">
     <configuration name="Baek_1764" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Baek_1764" />
       <module name="Algorithm_Ml" />
@@ -87,15 +88,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Goorm_해외주식" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Goorm_해외주식" />
+    <configuration name="Baek_20920" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baek_20920" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Greedy_11047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy_11047" />
+    <configuration name="Goorm_해외주식" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Goorm_해외주식" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Baek_20920" />
         <item itemvalue="Application.Baek_1764" />
         <item itemvalue="Application.Goorm_해외주식" />
         <item itemvalue="Application.Greedy_2875" />
         <item itemvalue="Application.Greedy_12845" />
-        <item itemvalue="Application.Greedy_11047" />
       </list>
     </recent_temporary>
   </component>
