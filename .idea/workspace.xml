@@ -5,9 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98ee22bd-3257-4630-9847-5cf37250143e" name="Changes" comment="Queue_Truck">
+      <change afterPath="$PROJECT_DIR$/src/Ml/Baek_1764.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ml/Greedy_11399.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ml/Greedy_12845.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ml/Greedy_2875.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy_12845.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy_12845.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy_2875.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy_2875.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BFS_1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/BFS_1260.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BFS_2667.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/BFS_2667.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baek_1764.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baek_20920.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Baek_20920.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary_10816.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Binary_10816.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary_1654.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Binary_1654.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary_18870.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Binary_18870.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary_1920.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Binary_1920.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary_2805.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Binary_2805.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS_1012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/DFS_1012.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFS_11724.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/DFS_11724.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm_장마.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Goorm_장마.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goorm_해외주식.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Goorm_해외주식.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy_11047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Greedy_11047.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy_11399.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy_12845.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy_1931.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Greedy_1931.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy_2875.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue_1966.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Queue_1966.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue_Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Queue_Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reverse_9093.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Reverse_9093.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack_10828.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Stack_10828.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack_1158.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Stack_1158.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack_9012.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Stack_9012.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +86,7 @@
     "Application.Binary_18870.executor": "Run",
     "Application.Binary_1920.executor": "Run",
     "Application.Binary_2805.executor": "Run",
+    "Application.Change.executor": "Run",
     "Application.DFS_1012.executor": "Run",
     "Application.DFS_11724.executor": "Run",
     "Application.Goorm_해외주식.executor": "Run",
@@ -72,64 +99,91 @@
     "Application.Queue_9093.executor": "Run",
     "Application.Stack_10828.executor": "Run",
     "Application.Stack_9012.executor": "Run",
+    "Application.Sw_1289.executor": "Run",
+    "Application._1920.executor": "Run",
+    "Application._2750.executor": "Run",
     "Attach to process.pid 17624.executor": "ProcessAttachDebug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Baek_20920">
-    <configuration name="Baek_1764" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Baek_1764" />
-      <module name="Algorithm_Ml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jlsow\OneDrive\문서\GitHub\Ml_Algorithm\src\Ml" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application._2750">
     <configuration name="Baek_20920" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Baek_20920" />
+      <option name="MAIN_CLASS_NAME" value="Ml.Baek_20920" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Goorm_해외주식" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Goorm_해외주식" />
+    <configuration name="Change" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Change" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Greedy_12845" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy_12845" />
+    <configuration name="Sw_1289" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sw_1289" />
       <module name="Algorithm_Ml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Greedy_2875" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy_2875" />
+    <configuration name="_1920" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort._1920" />
       <module name="Algorithm_Ml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2750" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort._2750" />
+      <module name="Algorithm_Ml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._2750" />
+        <item itemvalue="Application._1920" />
+        <item itemvalue="Application.Change" />
+        <item itemvalue="Application.Sw_1289" />
         <item itemvalue="Application.Baek_20920" />
-        <item itemvalue="Application.Baek_1764" />
-        <item itemvalue="Application.Goorm_해외주식" />
-        <item itemvalue="Application.Greedy_2875" />
-        <item itemvalue="Application.Greedy_12845" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.21-corretto-11.0.21-f644763e9732-97de7592" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -141,6 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712675671117</updated>
+      <workItem from="1722493741511" duration="4178000" />
     </task>
     <task id="LOCAL-00001" summary="Stack_1158">
       <option name="closed" value="true" />
@@ -201,6 +256,9 @@
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stack_1158" />
     <MESSAGE value="Stack_10828" />
@@ -211,7 +269,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Greedy_2875.java</url>
+          <url>file://$PROJECT_DIR$/src/Ml/Greedy_2875.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
