@@ -1,4 +1,5 @@
-import java.util.*;
+package Ml;
+
 import java.io.*;
 
 public class Sw_1289 {
