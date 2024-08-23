@@ -3,6 +3,8 @@ package Ml;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayDeque;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class DFS_1012 {
@@ -40,7 +42,8 @@ public class DFS_1012 {
                 for(int j=0; j<N; j++){
                     if(arr[i][j]==1 && !visited[i][j]){
                         count++;
-                        dfs(i,j);
+                        //dfs(i,j);
+                        bfs(i,j);
                     }
                 }
             }
@@ -48,7 +51,7 @@ public class DFS_1012 {
         }
 
     }
-    public static void dfs(int x, int y){
+    /*public static void dfs(int x, int y){
         visited[x][y] = true;
 
         for(int i=0; i<4; i++){
@@ -58,6 +61,27 @@ public class DFS_1012 {
             if(nx>=0 && nx<M && ny >=0 && ny<N){
                 if(arr[nx][ny]==1 && !visited[nx][ny]){
                     dfs(nx,ny);
+                }
+            }
+        }
+    }*/
+    public static void bfs(int x, int y){
+        Queue<int[]> q = new ArrayDeque<>();
+        q.add(new int[]{x,y});
+        visited[x][y] = true;
+
+        while(!q.isEmpty()){
+            int[] now = q.poll();
+
+            for(int i=0; i<4; i++){
+                int nx = now[0] + dx[i];
+                int ny = now[1] + dy[i];
+
+                if(nx>=0 && nx<M && ny >=0 && ny<N){
+                    if(arr[nx][ny]==1 && !visited[nx][ny]){
+                        visited[nx][ny] = true;
+                        q.add(new int[]{nx,ny});
+                    }
                 }
             }
         }
