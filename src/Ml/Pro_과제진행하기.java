@@ -1,4 +1,5 @@
-/*
+package Ml;
+
 import java.util.*;
 
 public class Pro_과제진행하기 {
@@ -46,4 +47,3 @@ public class Pro_과제진행하기 {
         return h+m;
     }
 }
-*/

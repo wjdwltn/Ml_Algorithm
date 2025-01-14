@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98ee22bd-3257-4630-9847-5cf37250143e" name="Changes" comment="Queue_Truck">
+    <list default="true" id="98ee22bd-3257-4630-9847-5cf37250143e" name="Changes" comment="기초수학(1)&#10;:에라토스테네스의 체&#10;:유클리드 호제법">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ml/Sw_5215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ml/Sw_5215.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +29,12 @@
     &quot;assignee&quot;: &quot;wjdwltn&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="3ede1816-1d2c-4f16-ac4e-13ce3e404be1" />
-        <option name="url" value="https://github.com/wjdwltn/Ml_Algorithm.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wjdwltn/Ml_Algorithm.git&quot;,
+    &quot;accountId&quot;: &quot;f6f209be-d7b1-4246-876f-70e8e902c749&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -47,66 +46,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BFS_1260.executor": "Run",
-    "Application.BFS_2667.executor": "Run",
-    "Application.Baek_1764.executor": "Run",
-    "Application.Baek_20920.executor": "Run",
-    "Application.Binary_10816.executor": "Run",
-    "Application.Binary_1654.executor": "Run",
-    "Application.Binary_18870.executor": "Run",
-    "Application.Binary_1920.executor": "Run",
-    "Application.Binary_2805.executor": "Run",
-    "Application.Change.executor": "Run",
-    "Application.DFS_1012.executor": "Run",
-    "Application.DFS_11724.executor": "Run",
-    "Application.Goorm_해외주식.executor": "Run",
-    "Application.Greedy_11047.executor": "Run",
-    "Application.Greedy_11399.executor": "Run",
-    "Application.Greedy_12845.executor": "Run",
-    "Application.Greedy_1931.executor": "Run",
-    "Application.Greedy_2875.executor": "Run",
-    "Application.Queue_1966.executor": "Run",
-    "Application.Queue_9093.executor": "Run",
-    "Application.Stack_10828.executor": "Run",
-    "Application.Stack_9012.executor": "Run",
-    "Application.Sw_1289.executor": "Run",
-    "Application._1026.executor": "Run",
-    "Application._10815.executor": "Run",
-    "Application._10867.executor": "Run",
-    "Application._11650.executor": "Run",
-    "Application._11651.executor": "Run",
-    "Application._1181.executor": "Run",
-    "Application._1920.executor": "Run",
-    "Application._2750.executor": "Run",
-    "Application._2751.executor": "Run",
-    "Attach to process.pid 17624.executor": "ProcessAttachDebug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BFS_1260.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BFS_2667.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Baek_1764.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Baek_20920.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_10816.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_1654.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_18870.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_1920.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Binary_2805.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Change.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DFS_1012.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DFS_11724.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Goorm_해외주식.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Greedy_11047.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Greedy_11399.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Greedy_12845.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Greedy_1931.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Greedy_2875.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue_1966.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue_9093.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stack_10828.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stack_9012.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sw_1289.executor&quot;: &quot;Run&quot;,
+    &quot;Application._1026.executor&quot;: &quot;Run&quot;,
+    &quot;Application._10815.executor&quot;: &quot;Run&quot;,
+    &quot;Application._10867.executor&quot;: &quot;Run&quot;,
+    &quot;Application._11650.executor&quot;: &quot;Run&quot;,
+    &quot;Application._11651.executor&quot;: &quot;Run&quot;,
+    &quot;Application._1181.executor&quot;: &quot;Run&quot;,
+    &quot;Application._14889_스타트와링크.executor&quot;: &quot;Run&quot;,
+    &quot;Application._15686_치킨배달.executor&quot;: &quot;Run&quot;,
+    &quot;Application._1920.executor&quot;: &quot;Run&quot;,
+    &quot;Application._1929_소수구하기.executor&quot;: &quot;Run&quot;,
+    &quot;Application._1978_소수찾기.executor&quot;: &quot;Run&quot;,
+    &quot;Application._2609_최대공약수와최대공배수.executor&quot;: &quot;Run&quot;,
+    &quot;Application._2750.executor&quot;: &quot;Run&quot;,
+    &quot;Application._2751.executor&quot;: &quot;Run&quot;,
+    &quot;Application._4963.executor&quot;: &quot;Run&quot;,
+    &quot;Attach to process.pid 17624.executor&quot;: &quot;ProcessAttachDebug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jlsow/IdeaProjects/Algorithm_Ml/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jlsow\OneDrive\문서\GitHub\Ml_Algorithm\src\Ml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._10867">
-    <configuration name="_1026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort._1026" />
+  <component name="RunManager" selected="Application._2609_최대공약수와최대공배수">
+    <configuration name="_14889_스타트와링크" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackTracking._14889_스타트와링크" />
       <module name="Algorithm_Ml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="BackTracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_10867" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort._10867" />
+    <configuration name="_15686_치킨배달" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackTracking._15686_치킨배달" />
       <module name="Algorithm_Ml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="BackTracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11650" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort._11650" />
+    <configuration name="_1929_소수구하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ml._1929_소수구하기" />
       <module name="Algorithm_Ml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Ml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11651" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort._11651" />
+    <configuration name="_1978_소수찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ml._1978_소수찾기" />
       <module name="Algorithm_Ml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Ml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort._1181" />
+    <configuration name="_2609_최대공약수와최대공배수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ml._2609_최대공약수와최대공배수" />
       <module name="Algorithm_Ml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Ml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,18 +173,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._10867" />
-        <item itemvalue="Application._11651" />
-        <item itemvalue="Application._11650" />
-        <item itemvalue="Application._1181" />
-        <item itemvalue="Application._1026" />
+        <item itemvalue="Application._2609_최대공약수와최대공배수" />
+        <item itemvalue="Application._1929_소수구하기" />
+        <item itemvalue="Application._1978_소수찾기" />
+        <item itemvalue="Application._15686_치킨배달" />
+        <item itemvalue="Application._14889_스타트와링크" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.21-corretto-11.0.21-f644763e9732-97de7592" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -192,6 +198,9 @@
       <option name="presentableId" value="Default" />
       <updated>1712675671117</updated>
       <workItem from="1722493741511" duration="18219000" />
+      <workItem from="1726158177068" duration="3667000" />
+      <workItem from="1726818593808" duration="598000" />
+      <workItem from="1736869106660" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="Stack_1158">
       <option name="closed" value="true" />
@@ -249,7 +258,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712839388273</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DFS/BFS">
+      <option name="closed" value="true" />
+      <created>1724422386124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724422386124</updated>
+    </task>
+    <task id="LOCAL-00009" summary="백트래킹">
+      <option name="closed" value="true" />
+      <created>1724422476224</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724422476224</updated>
+    </task>
+    <task id="LOCAL-00010" summary="기초수학(1)&#10;:에라토스테네스의 체&#10;:유클리드 호제법">
+      <option name="closed" value="true" />
+      <created>1724428248415</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724428248415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +292,10 @@
     <MESSAGE value="Stack_1158" />
     <MESSAGE value="Stack_10828" />
     <MESSAGE value="Queue_Truck" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue_Truck" />
+    <MESSAGE value="DFS/BFS" />
+    <MESSAGE value="백트래킹" />
+    <MESSAGE value="기초수학(1)&#10;:에라토스테네스의 체&#10;:유클리드 호제법" />
+    <option name="LAST_COMMIT_MESSAGE" value="기초수학(1)&#10;:에라토스테네스의 체&#10;:유클리드 호제법" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
